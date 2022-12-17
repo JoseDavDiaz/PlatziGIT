@@ -1,3 +1,5 @@
 Este es un ejemplo de lo aprendido por el momento en el curso de Platzi llamado "Git y gitbhub"
 
 Entonces, si por ejemplo, le agrego a este texto más información se modifica el documento.
+
+Tercer parrafo agregado.
