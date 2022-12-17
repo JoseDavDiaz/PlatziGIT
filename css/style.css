@@ -7,6 +7,22 @@
 }
 
 body{
-	text-align: center;
 	background-color: cadetblue;
+}
+
+.container{
+	width: 70%;
+	border: 2px solid salmon;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.container h1{
+	font-size: 2em;
+}
+
+p, h1{
+	margin-top: 12px;
 }
