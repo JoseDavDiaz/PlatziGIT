@@ -10,6 +10,11 @@ body{
 	background-color: cadetblue;
 }
 
+#cabecera{
+	text-align: left;
+	font-size: 18px;
+}
+
 .container{
 	width: 70%;
 	border: 2px solid black;
