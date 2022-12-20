@@ -7,22 +7,22 @@
 }
 
 body{
-	background-color: whitesmoke;
+	background-color: rgb(204, 191, 167);
 }
 
 #cabecera{
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	text-align: left;
 	font-size: 18px;
 	padding: 15px;
 	margin: 0;
 	background-color: blueviolet;	
-	border-radius: 10px 10px 0 0;
-	box-shadow: 3px 8px 52px -15px rgba(0, 0, 0, 0.75);	
-}
-#cabecera p, span{
 	
+	box-shadow: 3px 8px 52px -15px rgba(0, 0, 0, 0.75);
+}
+#cabecera p, span{	
 	color: white;
 }
 
@@ -34,13 +34,20 @@ body{
 #cabecera span{
 	margin-left: 2em;
 }
-.container{
+
+#cabecera #gota{
+	margin-right: 20px;
+}
+.container{	
+	overflow: hidden;
+	background-color: whitesmoke;
 	width: 70%;
 	border: 2px solid black;
 	border-radius: 10px;
 	text-align: center;
 	margin: 0 auto;
 	padding: 0;
+	margin-top: 10px;
 }
 
 .container h1{
